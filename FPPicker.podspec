@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FPPicker"
-  s.version      = “0.1“
+  s.version      = "0.1"
   s.summary      = "A client library for FP-Picker API"
   s.description  = <<-DESC
 Filepicker helps developers connect with all the data sources they might have.
@@ -40,7 +40,7 @@ Filepicker helps developers connect with all the data sources they might have.
   s.ios.frameworks   = 'AssetsLibrary', 'CoreFoundation', 'CoreGraphics', 'MobileCoreServices', 'QuartzCore', 'SystemConfiguration'
   s.osx.frameworks   = 'WebKit', 'Quartz'
 
-  s.dependency 'AFNetworking', '~> 2.4.1'
+  s.dependency 'AFNetworking', '~> 2.0'
   s.ios.dependency 'MBProgressHUD', '~> 0.9'
 
   s.requires_arc = true
