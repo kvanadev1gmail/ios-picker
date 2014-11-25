@@ -41,7 +41,7 @@ Filepicker helps developers connect with all the data sources they might have.
   s.osx.frameworks   = 'WebKit', 'Quartz'
 
   s.dependency 'AFNetworking', '~> 2.0'
-
+  s.ios.dependency 'MBProgressHUD', '~> 0.9'
 
   s.requires_arc = true
 
