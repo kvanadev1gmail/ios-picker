@@ -350,7 +350,7 @@
 
     infoButton.contentEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 10);
 
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:infoButton];
+//    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:infoButton];
 }
 
 - (void)setupSourceList
@@ -412,11 +412,11 @@
 
     if (!self.title)
     {
-        [self setTitle:@"Filepicker.io"];
+        [self setTitle:@"Livefyre"];
     }
     else
     {
-        remoteTitle = @"Cloud via Filepicker.io";
+        remoteTitle = @"Livefyre";
     }
 
     NSMutableDictionary *mSources = [NSMutableDictionary dictionary];
